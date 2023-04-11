@@ -1,4 +1,4 @@
-package front_java;
+package Locadoras;
 
 public class Locadoras {
 	int codigo;
