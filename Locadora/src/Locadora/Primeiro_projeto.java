@@ -1,4 +1,4 @@
-package front_java;
+package Locadoras;
 
 
 
@@ -75,7 +75,7 @@ public class Primeiro_projeto extends JFrame{
         }); // FIM DA CONSULTA DE FILME
         
       
-        // ALTERA«√O DE FILME  
+        // ALTERA√á√ÉO DE FILME  
       btAlterarFilme.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent evt) {
         	String nome = JOptionPane.showInputDialog("Nome");
@@ -91,7 +91,7 @@ public class Primeiro_projeto extends JFrame{
         	
         	if (indice == -1) {
         		
-        		JOptionPane.showMessageDialog(null, "Esse Filme N„o Existe!", 
+        		JOptionPane.showMessageDialog(null, "Esse Filme N√£o Existe!", 
         				"Alerta", JOptionPane.WARNING_MESSAGE);
         	} 
         	
@@ -106,14 +106,14 @@ public class Primeiro_projeto extends JFrame{
         	}
         	
         }
-    }); // FIM DA ALTERA«√O DO FILME
+    }); // FIM DA ALTERA√á√ÉO DO FILME
       
       
-      // EXCLUS√O DO FILME
+      // EXCLUS√ÉO DO FILME
       btExcluirFilme.addActionListener(new ActionListener() {
           public void actionPerformed(ActionEvent evt) {
           	
-        	String nome = JOptionPane.showInputDialog("Informe O Nome Do Filme Que VocÍ Deseja Excluir: ");
+        	String nome = JOptionPane.showInputDialog("Informe O Nome Do Filme Que Voc√™ Deseja Excluir: ");
           	int indice = -1;
           	
           	for (Locadoras filmes : listaLocadoras) {            		
@@ -123,7 +123,7 @@ public class Primeiro_projeto extends JFrame{
 			}
           	
           	if (indice == -1) {
-          		JOptionPane.showMessageDialog(null, "Esse Filme N„o Existe!", 
+          		JOptionPane.showMessageDialog(null, "Esse Filme N√£o Existe!", 
           				"Alerta", JOptionPane.WARNING_MESSAGE);
           	} else {
           		Locadoras filmes = new Locadoras();
@@ -133,7 +133,7 @@ public class Primeiro_projeto extends JFrame{
           	}
           	
           }
-      }); // FIM DA EXCLUS√O DO FILME
+      }); // FIM DA EXCLUS√ÉO DO FILME
       
       
 	}	
